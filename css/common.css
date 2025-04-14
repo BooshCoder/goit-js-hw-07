@@ -125,3 +125,102 @@ ul {
 .input-item::placeholder {
   color: #2e2f42;
 }
+/** --------------------------------- *task4 --------------------------------- */
+
+.form-item {
+  display: block;
+  color: #2e2f42;
+  max-width: 360px;
+  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+input[type="email"]:hover {
+  border: 1px solid #000000;
+}
+input[type="password"]:hover {
+  border: 1px solid #000000;
+}
+
+input[type="email"]:active {
+  border: 1px solid #808080;
+}
+input[type="password"]:active {
+  border: 1px solid #808080;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #808080;
+}
+
+.send-btn {
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 16px;
+}
+
+.send-btn:hover {
+  background-color: #6c8cff;
+}
+/** --------------------------------- *task5 --------------------------------- */
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.widget-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.change-color {
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 16px;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
